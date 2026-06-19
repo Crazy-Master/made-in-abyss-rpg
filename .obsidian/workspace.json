@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Abyss/Layers/Layer_1.md",
+                "file": "03_Abyss/Layers/Layer_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Layer_1"
+              "title": "Layer_2"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "ace04f63d8131f46",
   "lastOpenFiles": [
-    "03_Abyss/Overview/Abyss.md",
     "03_Abyss/Layers/Layer_1.md",
+    "03_Abyss/Layers/Layer_2.md",
+    "03_Abyss/Overview/Abyss.md",
     "04_World/Orth/Belchero_Orphanage.md",
     "04_World/Orth/Whistles.md",
     "03_Abyss/Overview/Curse_of_the_Abyss.md",
