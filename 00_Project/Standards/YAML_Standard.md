@@ -1,83 +1,45 @@
 # YAML Standard
 
-## Назначение
+## Purpose
 
-YAML используется для хранения структурированной информации об объектах мира.
+YAML используется как машинно-читаемая шапка файла.
 
-YAML располагается в начале файла между разделителями:
+Она нужна для:
 
-```yaml
----
-...
----
-```
+- поиска;
+    
+- фильтрации;
+    
+- Dataview-запросов;
+    
+- связей между объектами;
+    
+- контроля статуса информации.
+    
 
-Основное описание объекта размещается ниже в обычном Markdown.
-
----
-
-## Общие правила
-
-### Используем только английские идентификаторы
-
-Правильно:
-
-```yaml
-type: creature
-```
-
-Неправильно:
-
-```yaml
-type: существо
-```
-
----
-
-### Названия файлов
-
-Используем:
-
-```text
-Bondrewd.md
-Corpse_Weeper.md
-Layer_1.md
-Star_Compass.md
-```
-
-Не используем:
-
-```text
-Бондруд.md
-Трупный_ревун.md
-```
-
-Русский язык допускается только внутри описания статьи.
-
----
-
-### Ссылки на другие объекты
-
-Используем имя файла без расширения.
-
-Пример:
-
-```yaml
-related:
-  - Bondrewd
-  - Prushka
-```
-
----
-
-## Обязательные поля
-
-Каждый объект должен содержать:
+YAML находится в начале `.md` файла:
 
 ```yaml
 ---
 type:
 status:
+data_layer:
+source:
+tags:
+---
+```
+
+---
+
+# Required Fields
+
+Каждый объект должен иметь поля:
+
+```yaml
+---
+type:
+status:
+data_layer:
 source:
 tags:
 ---
@@ -89,18 +51,22 @@ tags:
 
 Тип объекта.
 
-Допустимые значения:
+Допустимые значения описаны в:
+
+```text
+00_Project/Standards/Object_Model.md
+```
+
+Примеры:
 
 ```yaml
 type: creature
 type: relic
 type: character
-type: location
 type: layer
-type: faction
-type: event
-type: flora
 type: phenomenon
+type: session
+type: consequence
 ```
 
 ---
@@ -109,14 +75,25 @@ type: phenomenon
 
 Статус информации.
 
-Допустимые значения:
-
 ```yaml
 status: canon
 status: derived
 status: adaptation
 status: homebrew
+status: campaign
 status: draft
+```
+
+---
+
+## data_layer
+
+Слой данных проекта.
+
+```yaml
+data_layer: canon
+data_layer: adaptation
+data_layer: campaign
 ```
 
 ---
@@ -125,99 +102,236 @@ status: draft
 
 Источник информации.
 
-Пример:
-
 ```yaml
 source:
   - manga
   - anime
-```
-
-Допустимые значения:
-
-```yaml
-manga
-anime
-movie
-guidebook
-wiki
-adaptation
-homebrew
+  - movie
+  - guidebook
+  - wiki
+  - adaptation
+  - homebrew
+  - campaign
 ```
 
 ---
 
 ## tags
 
-Ключевые теги.
-
-Пример:
+Теги для быстрого поиска.
 
 ```yaml
 tags:
   - abyss
-  - predator
   - layer_1
+  - relic
 ```
 
----
-
-## Необязательные поля
-
-Используются при необходимости.
+Теги пишем маленькими буквами через `_`.
 
 ---
 
-### related
+# Recommended Fields
 
-Связанные объекты.
-
-```yaml
-related:
-  - Bondrewd
-  - Nanachi
-```
+Эти поля добавляются, если они полезны.
 
 ---
 
-### layer
-
-Связанные слои Бездны.
-
-```yaml
-layer:
-  - Layer_1
-  - Layer_2
-```
-
----
-
-### affiliation
-
-Принадлежность к организации.
-
-```yaml
-affiliation:
-  - Delvers_Guild
-```
-
----
-
-### aliases
+## aliases
 
 Альтернативные названия.
 
 ```yaml
 aliases:
   - Sovereign of Dawn
+  - Lord of Dawn
 ```
 
 ---
 
-## Принцип минимализма
+## layers
 
-Не добавлять поле в YAML только потому, что это возможно.
+Связанные слои Бездны.
 
-Если информация используется только в описании статьи — она должна находиться в Markdown.
+```yaml
+layers:
+  - Layer_1
+  - Layer_2
+```
 
-YAML хранит только данные, полезные для поиска, фильтрации и связей между объектами.
+---
+
+## related
+
+Связанные объекты.
+
+```yaml
+related:
+  - Abyss
+  - Bondrewd
+  - Prushka
+```
+
+---
+
+## location
+
+Место, с которым связан объект.
+
+```yaml
+location:
+  - Orth
+  - Ido_Front
+```
+
+---
+
+## affiliation
+
+Организация или группа.
+
+```yaml
+affiliation:
+  - Delvers_Guild
+  - Umbra_Hands
+```
+
+---
+
+## campaign
+
+Кампания, к которой относится объект.
+
+```yaml
+campaign:
+  - Campaign_001
+```
+
+Используется только для `data_layer: campaign`.
+
+---
+
+## session
+
+Игровая сессия, к которой относится объект.
+
+```yaml
+session:
+  - Session_001
+```
+
+---
+
+## created
+
+Дата создания файла.
+
+```yaml
+created: 2026-06-19
+```
+
+---
+
+## updated
+
+Дата последнего значимого изменения.
+
+```yaml
+updated: 2026-06-19
+```
+
+---
+
+# Naming Rules
+
+## File Names
+
+Файлы называем на английском.
+
+Правильно:
+
+```text
+Bondrewd.md
+Curse_of_the_Abyss.md
+Layer_1.md
+Orb_Piercer.md
+```
+
+Неправильно:
+
+```text
+Бондруд.md
+Проклятие_Бездны.md
+```
+
+---
+
+## Object References
+
+В YAML указываем имя файла без `.md`.
+
+```yaml
+related:
+  - Bondrewd
+  - Curse_of_the_Abyss
+```
+
+---
+
+# Minimalism Rule
+
+YAML не должен превращаться в анкету на 50 полей.
+
+В YAML храним только то, что нужно для:
+
+- поиска;
+    
+- Dataview;
+    
+- связей;
+    
+- фильтрации;
+    
+- сортировки.
+    
+
+Всё остальное пишем обычным Markdown-текстом.
+
+---
+
+# Example
+
+```markdown
+---
+type: creature
+status: canon
+data_layer: canon
+source:
+  - manga
+  - anime
+tags:
+  - abyss
+  - creature
+  - predator
+layers:
+  - Layer_1
+related:
+  - Abyss
+created: 2026-06-19
+updated: 2026-06-19
+---
+
+# Corpse Weeper
+
+## Summary
+
+Описание существа...
+
+## Canon Notes
+
+Каноническая информация...
+
+## Game Notes
+
+Игровые заметки...
+```

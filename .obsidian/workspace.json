@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Project/Standards/Object_Model.md",
+                "file": "00_Project/Standards/YAML_Standard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Object_Model"
+              "title": "YAML_Standard"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "ace04f63d8131f46",
   "lastOpenFiles": [
-    "00_Project/Standards/YAML_Standard.md",
     "00_Project/Standards/Object_Model.md",
+    "00_Project/Standards/YAML_Standard.md",
     "00_Project/Templates/Template_Character.md",
     "13_Sessions/Consequences",
     "13_Sessions/Новая папка",
