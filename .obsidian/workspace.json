@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Abyss/Overview/Curse_of_the_Abyss.md",
+                "file": "04_World/Orth/Orth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Curse_of_the_Abyss"
+              "title": "Orth"
             }
           }
         ]
@@ -184,11 +184,12 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "17c4e7acecfb22c9",
+  "active": "ace04f63d8131f46",
   "lastOpenFiles": [
     "03_Abyss/Overview/Force_Field.md",
-    "03_Abyss/Overview/Abyss.md",
+    "04_World/Orth/Orth.md",
     "03_Abyss/Overview/Curse_of_the_Abyss.md",
+    "03_Abyss/Overview/Abyss.md",
     "00_Project/Standards/YAML_Standard.md",
     "00_Project/Standards/Object_Model.md",
     "00_Project/Templates/Template_Relic.md",
@@ -196,7 +197,6 @@
     "00_Project/Templates/Template_Layer.md",
     "00_Project/Templates/Template_Creature.md",
     "00_Project/Templates/Template_Character.md",
-    "Orth.md",
     "13_Sessions/Consequences",
     "13_Sessions/Новая папка",
     "13_Sessions/Session_Summaries",
