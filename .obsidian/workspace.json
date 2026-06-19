@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_World/Orth/Belchero_Orphanage.md",
+                "file": "03_Abyss/Layers/Layer_1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Belchero_Orphanage"
+              "title": "Layer_1"
             }
           }
         ]
@@ -186,14 +186,15 @@
   },
   "active": "ace04f63d8131f46",
   "lastOpenFiles": [
+    "03_Abyss/Overview/Abyss.md",
+    "03_Abyss/Layers/Layer_1.md",
+    "04_World/Orth/Belchero_Orphanage.md",
     "04_World/Orth/Whistles.md",
     "03_Abyss/Overview/Curse_of_the_Abyss.md",
     "Lyza.md",
-    "04_World/Orth/Belchero_Orphanage.md",
     "04_World/Orth/Delvers_Guild.md",
     "04_World/Orth/Orth.md",
     "03_Abyss/Overview/Force_Field.md",
-    "03_Abyss/Overview/Abyss.md",
     "00_Project/Standards/YAML_Standard.md",
     "00_Project/Standards/Object_Model.md",
     "00_Project/Templates/Template_Relic.md",
