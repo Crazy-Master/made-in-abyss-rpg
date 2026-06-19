@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03_Abyss/Layers/Layer_2.md",
+                "file": "03_Abyss/Layers/Layer_5/Layer_5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Layer_2"
+              "title": "Layer_5"
             }
           }
         ]
@@ -186,8 +186,33 @@
   },
   "active": "ace04f63d8131f46",
   "lastOpenFiles": [
-    "03_Abyss/Layers/Layer_1.md",
+    "03_Abyss/Layers/Layer_5/Ido_Front.md",
+    "03_Abyss/Layers/Layer_5/Layer_5.md",
+    "08_Characters/Bondrewd.md",
+    "08_Characters/Mitty.md",
+    "08_Characters/Nanachi.md",
+    "03_Abyss/Layers/Layer_4/Nanachi_Hideout.md",
+    "03_Abyss/Layers/Layer_4/Layer_4.md",
+    "03_Abyss/Layers/Layer_3/Layer_3.md",
+    "03_Abyss/Layers/Layer_2/Inverted_Forest.md",
+    "09_Factions/Subterranean_Bandits.md",
+    "08_Characters/Marulk.md",
+    "08_Characters/Ozen.md",
+    "03_Abyss/Layers/Layer_2/Seeker_Camp.md",
+    "03_Abyss/Layers/Layer_2/Layer_2.md",
     "03_Abyss/Layers/Layer_2.md",
+    "03_Abyss/Layers/Layer_6",
+    "03_Abyss/Layers/Layer_4",
+    "03_Abyss/Layers/Layer_5",
+    "03_Abyss/Layers/Layer_3",
+    "03_Abyss/Layers/Layer_2 — копия (4)",
+    "03_Abyss/Layers/Layer_2 — копия (3)",
+    "03_Abyss/Layers/Layer_2 — копия (2)",
+    "03_Abyss/Layers/Layer_2 — копия",
+    "03_Abyss/Layers/Layer_2",
+    "03_Abyss/Layers/Новая папка",
+    "03_Abyss/Layers/Layer_1/Layer_1.md",
+    "03_Abyss/Layers/Layer_1.md",
     "03_Abyss/Overview/Abyss.md",
     "04_World/Orth/Belchero_Orphanage.md",
     "04_World/Orth/Whistles.md",
@@ -196,27 +221,6 @@
     "04_World/Orth/Delvers_Guild.md",
     "04_World/Orth/Orth.md",
     "03_Abyss/Overview/Force_Field.md",
-    "00_Project/Standards/YAML_Standard.md",
-    "00_Project/Standards/Object_Model.md",
-    "00_Project/Templates/Template_Relic.md",
-    "00_Project/Templates/Template_Location.md",
-    "00_Project/Templates/Template_Layer.md",
-    "00_Project/Templates/Template_Creature.md",
-    "00_Project/Templates/Template_Character.md",
-    "13_Sessions/Consequences",
-    "13_Sessions/Новая папка",
-    "13_Sessions/Session_Summaries",
-    "13_Sessions/Session_Logs",
-    "12_Campaigns/Templates",
-    "12_Campaigns/Новая папка",
-    "12_Campaigns/Archived",
-    "12_Campaigns/Active",
-    "00_Project/Indexes",
-    "00_Project/Без названия.md",
-    "00_Project/Standards",
-    "README.md",
-    "00_Project/Source_Policy.md",
-    "00_Project/Project_Principles.md",
-    "Добро пожаловать.md"
+    "00_Project/Standards/YAML_Standard.md"
   ]
 }
