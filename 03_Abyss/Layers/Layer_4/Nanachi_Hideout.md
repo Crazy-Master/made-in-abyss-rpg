@@ -3,36 +3,38 @@ type: location
 status: canon
 data_layer: canon
 source:
-- manga
-- anime
-- wiki
+  - manga
+  - anime
+  - wiki
 tags:
-- abyss
-- layer_4
-- location
-- nanachi_hideout
-- weak_force_field
-- shelter
+  - abyss
+  - layer_4
+  - location
+  - nanachi_hideout
+  - weak_force_field
+  - shelter
 related:
-- Abyss
-- Layer_4
-- Force_Field
-- Curse_of_the_Abyss
-- Nanachi
-- Mitty
-- Riko
-- Reg
-- Bondrewd
-- Ido_Front
-- Orb_Piercer
+  - Abyss
+  - Layer_4
+  - Force_Field
+  - Curse_of_the_Abyss
+  - Nanachi
+  - Mitty
+  - Riko
+  - Reg
+  - Bondrewd
+  - Ido_Front
+  - Orb_Piercer
+  - Goblets_of_Giants
+  - Flat_Creeper
 layers:
-- Layer_4
+  - Layer_4
 location:
-- Layer_4
+  - Layer_4
 created: 2026-06-20
 updated: 2026-06-20
 ---
-# Nanachi's Hideout
+# Nanachi's Hideout (Убежище Наначи)
 
 ## Кратко
 
@@ -249,7 +251,7 @@ Nanachi's Hideout выполняет несколько лорных функц�
     
 - [[Layer_4|Четвёртый слой]]
     
-- [[Orb_Piercer|Сферопротыкатель]]
+- [[Orb_Piercer|Шаропротыкатель]]
     
 - [[Nanachi_Hideout_Game_Rules|Игровые правила убежища Наначи]]
     

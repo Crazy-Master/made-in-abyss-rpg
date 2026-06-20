@@ -3,37 +3,38 @@ type: location
 status: canon
 data_layer: canon
 source:
-- manga
-- anime
-- game
-- wiki
+  - manga
+  - anime
+  - game
+  - wiki
 tags:
-- abyss
-- layer_2
-- location
-- inverted_forest
-- weak_force_field
-- wind_currents
+  - abyss
+  - layer_2
+  - location
+  - inverted_forest
+  - weak_force_field
+  - wind_currents
 related:
-- Abyss
-- Layer_2
-- Force_Field
-- Curse_of_the_Abyss
-- Seeker_Camp
-- Giant_Porta_Tree
-- Corpse_Weeper
-- Hells_Crossing
-- Heaven_Waterfall
-- Ozen
-- Marulk
+  - Abyss
+  - Layer_2
+  - Force_Field
+  - Curse_of_the_Abyss
+  - Seeker_Camp
+  - Giant_Porta_Tree
+  - Corpse_Weeper
+  - Hells_Crossing
+  - Heaven_Waterfall
+  - Ozen
+  - Marulk
+  - Amagiri
 layers:
-- Layer_2
+  - Layer_2
 location:
-- Layer_2
+  - Layer_2
 created: 2026-06-20
 updated: 2026-06-20
 ---
-# Inverted Forest
+# Inverted Forest (Перевёрнутый лес)
 
 ## Кратко
 
