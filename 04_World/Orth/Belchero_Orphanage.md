@@ -33,7 +33,7 @@ created: 2026-06-19
 updated: 2026-06-19
 ---
 
-# Belchero Orphanage
+# Belchero Orphanage (Приют Белчеро)
 
 ## Кратко
 

@@ -220,7 +220,7 @@ Princess Bosom выполняет несколько лорных функций
 - [[Artifact_Grades|Классы реликвий]]
 - [[Layer_1|Первый слой]]
 - [[Orth|Орт]]
-- [[Belchero_Orphanage|Приют Белчеро]]
+- [[04_World/Orth/Belchero_Orphanage|Приют Белчеро]]
 - [[Seeker_Camp|Лагерь Искателей]]
 - [[Yelme|Елме]]
 

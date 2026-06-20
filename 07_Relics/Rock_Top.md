@@ -207,7 +207,7 @@ Rock Top выполняет несколько лорных функций:
 - [[Layer_1|Первый слой]]
 - [[Nat|Нат]]
 - [[Riko|Рико]]
-- [[Belchero_Orphanage|Приют Белчеро]]
+- [[04_World/Orth/Belchero_Orphanage|Приют Белчеро]]
 - [[Orth|Орт]]
 
 ---
