@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,10 +217,10 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "3935a7f016d5f732",
+  "active": "3b89431c10c0b351",
   "lastOpenFiles": [
-    "02_Game_Adaptation/working folder/Conditions_and_Status_Effects.md",
     "02_Game_Adaptation/working folder/Sample_Properties.md",
+    "02_Game_Adaptation/working folder/Conditions_and_Status_Effects.md",
     "02_Game_Adaptation/working folder/Interaction_Triggers.md",
     "00_Project/Game_Adaptation_Roadmap.md",
     "02_Game_Adaptation/working folder",
