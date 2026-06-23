@@ -26,7 +26,6 @@
           {
             "id": "3935a7f016d5f732",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -34,7 +33,6 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Sample_Properties"
             }
@@ -45,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Game_Adaptation/working folder/Conditions_and_Status_Effects.md",
+                "file": "02_Game_Adaptation/working folder/Interaction_Triggers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Conditions_and_Status_Effects"
+              "title": "Interaction_Triggers"
             }
           }
         ],
