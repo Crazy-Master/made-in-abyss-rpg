@@ -20,7 +20,7 @@ related:
 created: 2026-06-20
 updated: 2026-06-20
 ---
-
+а
 # Interaction Triggers (Триггеры взаимодействия)
 
 ## Кратко
