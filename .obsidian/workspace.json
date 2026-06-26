@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8e0bbcc6ffd55bcd",
+        "id": "b4b852cf3e605aee",
         "type": "tabs",
         "children": [
           {
-            "id": "98cd03066f155a54",
+            "id": "f42d1a8ea8b4db1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Game_Adaptation/world map/Location_Card_Creation_Guide.md",
+                "file": "02_Game_Adaptation/Layer_1/Zoning/Layer_1_Text_Zoning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Location_Card_Creation_Guide"
+              "title": "Layer_1_Text_Zoning"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Layer_1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,44 +184,44 @@
       "obsidian-excalidraw-plugin:Создать новый чертеж": false
     }
   },
-  "active": "98cd03066f155a54",
+  "active": "f42d1a8ea8b4db1e",
   "lastOpenFiles": [
-    "02_Game_Adaptation/world map/Template_Card Guide.md",
-    "02_Game_Adaptation/world map/Location_Card_Creation_Guide.md",
-    "02_Game_Adaptation/world map/Transition_Card_Creation_Guide.md",
+    "02_Game_Adaptation/Layer_1/Zoning/Layer_1_Zoning_Principles.md",
+    "02_Game_Adaptation/Layer_1/Zoning/Layer_1_Text_Zoning.md",
+    "02_Game_Adaptation/world map.zip",
+    "02_Game_Adaptation/world map.zip.tmp",
+    "02_Game_Adaptation/Layer_1.zip",
+    "02_Game_Adaptation/Layer_1.zip.tmp",
+    "03_Abyss/Layers/Layer_1.zip",
+    "03_Abyss/Layers/Layer_1.zip.tmp",
+    "02_Game_Adaptation/Layer_1/Layer_1_Zoning_Location_Transition_Matrices.md",
+    "02_Game_Adaptation/Layer_1/Zoning",
+    "03_Abyss/Layers/Layer_1/Layer_1.md",
+    "05_Creatures/Abode_of_Trees_and_Fossils.md",
+    "Layer_1.md",
+    "02_Game_Adaptation/Layer_1",
+    "02_Game_Adaptation/Starting_Delver_Equipment.md",
     "02_Game_Adaptation/world map/Location_and_Transition_Principles.md",
-    "02_Game_Adaptation/world map/Layer_1_5_Environment_Reference.md",
+    "02_Game_Adaptation/starting adventure/First_Descent_Part_1_Orth_Belchero.md",
+    "02_Game_Adaptation/starting adventure/First_Descent_Cartography.md",
+    "02_Game_Adaptation/starting adventure/First_Descent_Arc.md",
+    "02_Game_Adaptation/working folder/Interaction_Triggers.md",
     "02_Game_Adaptation/working folder/Conditions_and_Status_Effects.md",
+    "03_Abyss/Layers/Layer_1/Gate_to_the_Netherworld.md",
+    "03_Abyss/Layers/Layer_1/Burial_Tower.md",
+    "03_Abyss/Layers/Layer_1/Big_Gondola.md",
+    "02_Game_Adaptation/world map/Layer_1_5_Environment_Reference.md",
+    "02_Game_Adaptation/world map/Location_Card_Creation_Guide.md",
+    "02_Game_Adaptation/world map/Template_Card Guide.md",
+    "02_Game_Adaptation/world map/Transition_Card_Creation_Guide.md",
     "07_Relics/Star_Compass.md",
     "09_Factions/Ganja.md",
     "06_Flora/Hookgrass.md",
     "06_Flora/Pale_Lichen.md",
     "06_Flora/Sainona.md",
     "06_Flora/Stingnettle.md",
-    "06_Flora/Sweetcap_Sprout.md",
-    "06_Flora/Threadreed.md",
-    "02_Game_Adaptation/Flora_Classification.md",
-    "02_Game_Adaptation/First_Layer_Field_Handout.md",
-    "06_Flora/Dewcup_Moss.md",
-    "06_Flora/Amberberry.md",
-    "06_Flora/Bellroot.md",
-    "06_Flora/Amagiri.md",
-    "06_Flora/!Flora_Layer_1_3_Index.md",
-    "02_Game_Adaptation/Starting_Delver_Equipment.md",
     "02_Game_Adaptation/world map",
-    "06_Flora/Windseed_Grass.md",
-    "06_Flora/Stoneclutch_Root.md",
-    "06_Flora/Sleepcap_Bloom.md",
-    "06_Flora/Saltbark.md",
     "06_Flora.zip",
-    "06_Flora.zip.tmp",
-    "02_Game_Adaptation/starting adventure",
-    "02_Game_Adaptation/Новая папка",
-    "02_Game_Adaptation/working folder",
-    "Без названия.canvas",
-    "04_World/Landmarks",
-    "04_World/Новая папка",
-    "04_World/Delver_Culture",
-    "04_World.zip"
+    "Без названия.canvas"
   ]
 }
